@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import './Home.css';
 import getAllMovies from "../service/movies-service";
 import CustomTableComponent from "../components/tebel";
 
@@ -64,7 +64,7 @@ export default function Home(props) {
   ];
 
   return (
-    <div>
+    <div className="HomeDiv">
       <h1>Home</h1>
 
       <CustomTableComponent
